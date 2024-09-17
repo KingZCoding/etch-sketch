@@ -1,0 +1,22 @@
+.grid-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  border: 2px solid black;
+  width: 640px;
+  height: 640px;
+  /* background-color: blue; */
+}
+
+.grid-item {
+  /* width: auto;
+  height: auto; */
+  /* border: 1px solid black; */
+  box-sizing: border-box;
+}
+
+.prompt {
+  display: flex;
+  align-items: center;
+  margin: 10px auto;
+}
